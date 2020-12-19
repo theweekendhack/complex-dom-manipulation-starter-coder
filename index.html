@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/9134a43a2c.js" crossorigin="anonymous"></script>
+    <title>Basic Answer</title>
+    <script defer src="js/app.js"></script>
+</head>
+<body> 
+    <div class="modal">
+        <div class="modal-content">
+            <div class="modal-top">
+                <i class="fas fa-times"></i>
+            </div>
+            <div class="modal-middle">The Sum of Blah + blah  = blah</div>
+            <div class="modal-bottom">
+                <form>
+                    <div class="form-control">    
+                        <label for="number1">Box number </label>
+                        <input type="text" id="boxNo" name="boxNo">
+                    </div> 
+                    <div class="form-control">    
+                        <button type="button" id="createBoxButton">Create Boxes </button>
+                    </div> 
+                </form>
+            </div>
+        </div>
+    </div>
+    <main>
+        <section>
+            <div class="container" > 
+                <!--
+                <div id="box-container">
+                    <div class="box"></div>
+                    <div class="box"></div>
+                    <div class="box"></div>
+                </div>-->
+            
+                <div class="form-container">
+
+                    <form action="" method="POST" >
+
+                        <div class="form-control">    
+                            <label for="number1">Number </label>
+                            <input type="text" id="number1" name="number1">
+                            <div class="error-fields"></div>
+                        </div> 
+                
+                        <div class="form-control">    
+                            <label for="number2">Second Number </label>
+                            <input type="text" id="number2" name="nmber2">
+                            <div class="error-fields"></div>
+                        </div> 
+                                    
+                        <div class="form-control">
+                           <button  type="button" id="calculateButton">Add</button> 
+                        </div>
+            
+                    </form>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>  
+ 
+
+</body>
+</html>
